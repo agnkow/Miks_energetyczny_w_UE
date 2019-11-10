@@ -5,10 +5,7 @@
 
 
 '%!in%' <- function(x,y)!('%in%'(x,y))
-
 replace_na_df <- function(x) { replace(x, is.na(x), 0) }
-#function(x) { mutate_all(x, ~if_else(is.na(.), 0, .)) }
-#function(x) { mutate_all(x, ~replace(., is.na(.), 0)) }
 
 
 
