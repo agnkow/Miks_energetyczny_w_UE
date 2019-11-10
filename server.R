@@ -6,6 +6,9 @@
 
 shinyServer(function(input, output, session) {
   
+
+###### SKUPIENIA ######
+  
   output$type_cluster_plot <- renderUI({
     if (is.null(input$type_cluster_method))
       return()
@@ -352,6 +355,7 @@ shinyServer(function(input, output, session) {
   
   
   
+###### STRUKTURA ######
   
   output$plots <- renderUI({
     plot_output_list <- lapply(c(input$year_1B_country_1B), function(i) {
@@ -566,6 +570,7 @@ shinyServer(function(input, output, session) {
   
   
   
+###### ILOŚCI (TWh) ######  
   
   selectedData_GWh <- reactive({
     df_1 <- df_total[df_total$GEO.TIME %in% input$countries_GWh, 

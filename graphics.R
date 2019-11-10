@@ -4,6 +4,8 @@
 #############################################################
 
 
+###### SKUPIENIA ######
+
 ###  Hierarchical clustering  ###   
 # plot_hc_1, plot_hc_2, plot_hc_3
 
@@ -162,38 +164,6 @@ plot_means <- function(df_means, year){
 
 
 
-barplot_country <- function(df, var_group, year_p, 
-                            my_palette_cut = my_palette,
-                            width_bar = 0.9){
-  
-  plot_out <- 
-    ggplot(data = df, 
-           aes(y = value/100, 
-               x = var_group, 
-               group = variable)) +
-    
-    geom_col(aes(fill = variable), width = width_bar) +
-    
-    ggtitle(as.character(year_p)) +
-    ylab('% udzial \n') + 
-    xlab('') +
-    
-    scale_fill_manual(name = toupper('Zrodla energii'), 
-                      values = my_palette_cut) + 
-    scale_y_continuous(labels = percent) 
-  
-  plot_out <- plot_out + 
-    my_theme() +
-    my_theme_title(my_margin_b = 6, my_hjust = 0.01) +
-    theme(legend.position = 'right')
-  
-  return(plot_out)
-}
-
-
-
-
-
 my_silhouette <- function(df_res, year_p, 
                           mean_Si = 0, label_TF = TRUE){
   
@@ -301,6 +271,42 @@ my_optimal_nclust_plot <- function(df, gap_stat,
 
 
 
+###### STRUKTURA ######
+
+barplot_country <- function(df, var_group, year_p, 
+                            my_palette_cut = my_palette,
+                            width_bar = 0.9){
+  
+  plot_out <- 
+    ggplot(data = df, 
+           aes(y = value/100, 
+               x = var_group, 
+               group = variable)) +
+    
+    geom_col(aes(fill = variable), width = width_bar) +
+    
+    ggtitle(as.character(year_p)) +
+    ylab('% udzial \n') + 
+    xlab('') +
+    
+    scale_fill_manual(name = toupper('Zrodla energii'), 
+                      values = my_palette_cut) + 
+    scale_y_continuous(labels = percent) 
+  
+  plot_out <- plot_out + 
+    my_theme() +
+    my_theme_title(my_margin_b = 6, my_hjust = 0.01) +
+    theme(legend.position = 'right')
+  
+  return(plot_out)
+}
+
+
+
+
+
+###### ILOŚCI (TWh) ######
+
 plot_GWh <- function(df, y_var){
   
   plot_out <- 
@@ -330,6 +336,8 @@ plot_GWh <- function(df, y_var){
 
 
 
+
+###### SKUPIENIA - TABLE ######
 
 my_DT_style_1 <- function(df){
   
