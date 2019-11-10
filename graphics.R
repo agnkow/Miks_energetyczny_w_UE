@@ -333,7 +333,7 @@ plot_GWh <- function(df, y_var){
 
 my_DT_style_1 <- function(df){
   
-  df_1 = df
+  df_1 <- df
   my.options <- list(autoWidth = FALSE
                      ,pageLength = FALSE
                      ,paging = FALSE
@@ -362,7 +362,7 @@ my_DT_style_1 <- function(df){
                border-top-color: rgb(64,64,64);")  
         ))))
   
-  df_2 = DT::datatable(df_1,
+  df_2 <- DT::datatable(df_1,
                        filter = list(position = 'top', clear = TRUE, plain = FALSE),
                        options = my.options,
                        container = my.container,
