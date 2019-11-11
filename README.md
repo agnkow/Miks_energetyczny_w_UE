@@ -25,7 +25,7 @@ Wszystkie wyniki uzyskane w aplikacji możemy wyświetlić jednocześnie dla wyb
 Dostępna jest też opcja wyboru sposobu uwzględnienia źródeł konwencjonalnych (idywidualnie/sumarycznie).
 
 
-![shiny_mix_H01](./shiny_mix_png/shiny_mix_H01.png)
+![shiny_mix_H01_2](./shiny_mix_png/shiny_mix_H01_2.png)
 ![shiny_mix_H02](./shiny_mix_png/shiny_mix_H02.png)
 ![shiny_mix_H03](./shiny_mix_png/shiny_mix_H03.png)
 ![shiny_mix_H04](./shiny_mix_png/shiny_mix_H04.png)
