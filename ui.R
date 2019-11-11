@@ -20,7 +20,7 @@ navbarPage(
              line-height: 0.3; font-size: 14px;"),
           
    headerPanel(
-     h1('Generacja energii elektrycznej netto ze względu na źródła energii', 
+     h1('Generacja energii elektrycznej netto ze względu na źródła', 
         style = "font-family: 'Old Standard TT', serif;
         font-weight: 500; line-height: 1.5;" 
        )),
