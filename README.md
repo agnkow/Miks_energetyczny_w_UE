@@ -1,5 +1,5 @@
 
-## Generacja energii elektrycznej w krajach UE ze względu na źródła energii
+## Generacja energii elektrycznej w krajach UE ze względu na źródła
 
 Aplikacja Shiny składa się z części:
 * SKUPIENIA
