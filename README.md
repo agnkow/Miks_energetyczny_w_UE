@@ -41,10 +41,10 @@ Dostępna jest też opcja wyboru sposobu uwzględnienia źródeł konwencjonalny
 **Źródło danych:** [Eurostat](http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=nrg_105m&lang=en)
 
 **Inspiracje temetyczne:**
-* *[Znamy już plany energetyczne wszystkich państw UE](https://wysokienapiecie.pl/17458-znamy-juz-plany-energetyczne-wszystkich-panstw-ue/)*, R.Zasuń, L.Kadej, wysokienapiecie.pl 
-* *[Cała Europa pracuje nad zmianą źródeł prądu](https://www.obserwatorfinansowy.pl/forma/rotator/cala-europa-pracuje-nad-zmiana-zrodel-pradu/)*, R.Zasuń, obserwatorfinansowy.pl
-* *Analiza struktury źródeł wytwarzanej energii państw Unii Europejskiej w latach 2002-2012*, K.Mazur, 
-[w:] *Wybrane zastosowania narzędzi analitycznych w naukach ekonomicznych*, red. A.Prędki, Mfiles.pl, Kraków 2015
+* *[Znamy już plany energetyczne wszystkich państw UE](https://wysokienapiecie.pl/17458-znamy-juz-plany-energetyczne-wszystkich-panstw-ue/)*, R. Zasuń, L. Kadej, wysokienapiecie.pl 
+* *[Cała Europa pracuje nad zmianą źródeł prądu](https://www.obserwatorfinansowy.pl/forma/rotator/cala-europa-pracuje-nad-zmiana-zrodel-pradu/)*, R. Zasuń, obserwatorfinansowy.pl
+* *Analiza struktury źródeł wytwarzanej energii państw Unii Europejskiej w latach 2002-2012*, K. Mazur, 
+[w:] *Wybrane zastosowania narzędzi analitycznych w naukach ekonomicznych*, red. A. Prędki, Mfiles.pl, Kraków 2015
 
 **Inspiracje techniczne:**
 * [Dynamically generated user interface components](https://shiny.rstudio.com/gallery/dynamic-ui.html)
