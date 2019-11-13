@@ -26,7 +26,7 @@ Dostępna jest też opcja wyboru sposobu uwzględnienia źródeł konwencjonalny
 
 
 ![shiny_mix_H01_2](./shiny_mix_png/shiny_mix_H01_2.png)
-![shiny_mix_H02](./shiny_mix_png/shiny_mix_H02.png)
+![shiny_mix_H02_2](./shiny_mix_png/shiny_mix_H02_2.png)
 ![shiny_mix_H03](./shiny_mix_png/shiny_mix_H03.png)
 ![shiny_mix_H04](./shiny_mix_png/shiny_mix_H04.png)
 ![shiny_mix_H05](./shiny_mix_png/shiny_mix_H05.png)
